@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('Quick Links', () => {
+describe('Protocol Handbook Scenario Test Cases', () => {
     beforeEach(() => {
         cy
             .visit('/')
