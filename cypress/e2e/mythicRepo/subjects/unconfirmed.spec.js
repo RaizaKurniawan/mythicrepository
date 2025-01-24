@@ -12,6 +12,6 @@ describe('Subjects', () => {
         cy
             .wait(1000)
             .get('.SectionHeader_header-title__e1_L_')
-            .contains('UNCONFIRMED ENTRIES')
+            .should('have.contain', 'UNCONFIRMED ENTRIES')
     });
 });

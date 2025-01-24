@@ -12,14 +12,14 @@ describe('Subjects', () => {
         cy
             .wait(1000)
             .get('.SectionHeader_active__l8scC')
-            .contains('Mythics')
+            .should('have.contain', 'Mythics')
     });
 
     it('Ensure that the user able to see the Shade', () => {
         cy
             .wait(1000)
             .get('#scrollableDiv')
-            .contains('Shade')
+            .should('have.contains', 'Shade')
     });
 
     it('Ensure that the user able to Sort By Top Rated ', () => {
