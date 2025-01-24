@@ -1,0 +1,8 @@
+How to use?
+
+Clone project to local storage
+Open folder in VSCode
+Open terminal
+
+npm install
+npx cypress open

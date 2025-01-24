@@ -1,6 +1,6 @@
 /// <reference types="cypress"/>
 
-describe('Confirmed Entries', () => {
+describe('New to Repository', () => {
     beforeEach(() => {
         cy
         .visit('/').wait(1000)
